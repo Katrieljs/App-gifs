@@ -1,0 +1,86 @@
+body{
+    background-color: #282c34;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;               
+}
+
+body::-webkit-scrollbar-track {
+  background: #282c34;        
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #ccc;    
+  border-radius: 20px;        
+}
+
+h1{
+  color: #fff;
+  cursor: pointer;
+}
+
+li{
+  list-style: none;
+}
+
+.App {
+  text-align: center;
+  padding: 2%;
+}
+
+.App-links{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.link{
+  color: #ededed;
+}
+
+.App-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.gif-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.gif{
+  padding-bottom: 10px;
+  background-color: #ededed;
+  color: #000;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 320px;
+  text-decoration: none;
+}
+
+.gif-img{
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.gif-title{
+  font-weight: 100;
+}
+
+.fa-spinner{
+  font-size: 100px;
+}
